@@ -1,0 +1,120 @@
+<head>
+    <h1>Photofish</h1>
+    
+    
+    
+    <style>
+    
+    body {
+      background: linear-gradient(110deg, #1F618D 60%, #2874A6   60%);
+    border: none;
+    color: white;
+    padding: 100px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Allerta', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    
+    #button1 {
+      float: left;
+      left: -40%;
+    }
+    #button2 {
+      float: right;
+      right: -40%;
+      top:-440px;
+    }
+    #button3 {
+      right:21%;
+      float: middle;
+    }
+    
+    html, body {
+      text-align: center;
+      padding-top: 40px;
+      
+      -webkit-perspective: 700px;
+         -moz-perspective: 700px;
+          -ms-perspective: 700px;
+              perspective: 700px;
+    }
+    
+    /* Reset */
+    button {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      outline: 0;
+      -webkit-appearance: none;
+      
+    }
+    
+    /* Custom */
+    button {
+      display: inline-block;
+      position: relative;
+      height: 420px;
+      width: 200px;
+      padding: 60px 0px;
+      top: 0;
+      font-size: 40px;
+      font-family: 'Allerta', sans-serif;
+      border-radius: 4px;
+      border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+      background: rgb(0, 168, 247);
+      color: #fff;
+      box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+      
+      -webkit-transform: translateZ(0);
+         -moz-transform: translateZ(0);
+          -ms-transform: translateZ(0);
+              transform: translateZ(0);
+      
+      -webkit-transition: all 0.2s ease;
+         -moz-transition: all 0.2s ease;
+          -ms-transition: all 0.2s ease;
+              transition: all 0.2s ease;
+    }
+    
+    
+    button:active {
+      top: 0px;
+      box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+     
+    
+    }
+    
+    
+    </style>
+    </head>
+    
+<form action="/fototime">
+<button id="button1" type= "submit"><b>Fotoğraf Çek</b></button>
+</form>
+
+<style type="text/css">
+  body {
+    width: 480px;
+    height: 320px;
+  }
+</style>
+
+<body>
+    <form action="/ayarlar">
+        <button id="button3" type="submit"> <b>Gelişmiş Ayarlar</b></button>
+      </form>
+    <form action="/galeri">
+      <button id="button2" type= "submit"><b>Galeri</b></button>
+      </form>
+
+</body>
+
+
+  
+  
+  
